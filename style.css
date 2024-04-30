@@ -134,3 +134,14 @@ form label, form p{
    background: rgba(3, 108, 22, 0.953);
    transform: scale(1.2);
 }
+
+table{ 
+    margin: 20px 0 20px; } 
+thead{ 
+   background-color: #555555; 
+   color: white; 
+   font-weight: bold; 
+} 
+tr, td{ 
+   Border: 1px solid black; 
+   padding: 8px 15px; }
