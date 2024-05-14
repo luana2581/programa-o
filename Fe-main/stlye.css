@@ -1,0 +1,34 @@
+:root{
+    --brancop: #ffffff;
+    --cinza-segundario: #c0c0c0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030c;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--brancop);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.principal{
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container{
+    height: 100vh;
+}
+
+.container__botao{
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--brancop);
+    display: block;
+}
